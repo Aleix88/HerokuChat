@@ -2,6 +2,7 @@ f7c36f013ce7d378c343abec98530e10231f188b	not-for-merge	branch 'async-file' of ht
 05a87407d12f99abf66971304d277cf3b9e329fb	not-for-merge	branch 'beta' of https://github.com/vapor/core
 f4ee1ce26d63a716e84ed476a3c639d4d7e0fe3b	not-for-merge	branch 'cache' of https://github.com/vapor/core
 e674863ffc5b0e1f8308fdd71f6dcc6ff3709f38	not-for-merge	branch 'debugging' of https://github.com/vapor/core
+f85a3ca28c709cdfc1ee0709c25c9695e29f64de	not-for-merge	branch 'encodable-streams' of https://github.com/vapor/core
 ee3f7ee6eb3ba3fc07fbd8cc26bad73f16619810	not-for-merge	branch 'expanding-file' of https://github.com/vapor/core
 bab2e39d12b8519e970fd5fac5b065b41798d521	not-for-merge	branch 'fix-decoding-failure' of https://github.com/vapor/core
 95855efa43fa2bce5a9aec02ceb535a325d4edec	not-for-merge	branch 'joannis-performance' of https://github.com/vapor/core
@@ -92,6 +93,8 @@ f3d61814b5c50e16e35308285ecb8e7679e66eaf	not-for-merge	'refs/pull/73/merge' of h
 c5aeeaa97e72f7bea9dabe1cb4bdcde146d69116	not-for-merge	'refs/pull/74/head' of https://github.com/vapor/core
 7fd69a1b315cb0ab034b6a6495dbb939210266a9	not-for-merge	'refs/pull/75/head' of https://github.com/vapor/core
 ab5397a82cb6352bb264d37e97602a7d684a4781	not-for-merge	'refs/pull/75/merge' of https://github.com/vapor/core
+f85a3ca28c709cdfc1ee0709c25c9695e29f64de	not-for-merge	'refs/pull/76/head' of https://github.com/vapor/core
+0ec0e7868c84601999100409deff199f6b03aab8	not-for-merge	'refs/pull/76/merge' of https://github.com/vapor/core
 8b9dd1d6acdccec9a703856d982b7d769202bba6	not-for-merge	'refs/pull/8/head' of https://github.com/vapor/core
 21a8f15af1a7310f2a9aaa9c45c29802205906f1	not-for-merge	'refs/pull/9/head' of https://github.com/vapor/core
 6734a157fcbbdeb4de72ecb5e57134e4c7da038b	not-for-merge	'refs/pull/9/merge' of https://github.com/vapor/core
