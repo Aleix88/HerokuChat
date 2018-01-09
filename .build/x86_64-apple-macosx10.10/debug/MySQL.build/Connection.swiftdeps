@@ -24,14 +24,12 @@ depends-top-level:
 - "MySQLError"
 - "Node"
 - "NodeRepresentable"
-- !private "STMT_ATTR_UPDATE_MAX_LENGTH"
 - "String"
 - "StringLiteralType"
 - !private "StructuredData"
 - "UInt"
 - "UInt32"
 - "UnsafeMutablePointer"
-- !private "my_bool"
 - !private "mysql_close"
 - !private "mysql_free_result"
 - !private "mysql_init"
@@ -40,7 +38,6 @@ depends-top-level:
 - !private "mysql_query"
 - !private "mysql_real_connect"
 - !private "mysql_set_character_set"
-- !private "mysql_stmt_attr_set"
 - !private "mysql_stmt_bind_param"
 - !private "mysql_stmt_bind_result"
 - !private "mysql_stmt_close"
@@ -49,7 +46,6 @@ depends-top-level:
 - !private "mysql_stmt_init"
 - !private "mysql_stmt_prepare"
 - !private "mysql_stmt_result_metadata"
-- !private "mysql_stmt_store_result"
 - !private "mysql_thread_end"
 - !private "mysql_thread_init"
 - !private "strlen"
@@ -106,7 +102,6 @@ depends-member:
 - ["5MySQL10ConnectionC", "MySQLError"]
 - ["5MySQL10ConnectionC", "Node"]
 - ["5MySQL10ConnectionC", "NodeRepresentable"]
-- !private ["5MySQL10ConnectionC", "STMT_ATTR_UPDATE_MAX_LENGTH"]
 - ["5MySQL10ConnectionC", "String"]
 - !private ["5MySQL10ConnectionC", "StructuredData"]
 - ["5MySQL10ConnectionC", "UInt"]
@@ -118,7 +113,6 @@ depends-member:
 - ["5MySQL10ConnectionC", "init"]
 - ["5MySQL10ConnectionC", "isClosed"]
 - ["5MySQL10ConnectionC", "lastError"]
-- !private ["5MySQL10ConnectionC", "my_bool"]
 - !private ["5MySQL10ConnectionC", "mysql_close"]
 - !private ["5MySQL10ConnectionC", "mysql_free_result"]
 - !private ["5MySQL10ConnectionC", "mysql_init"]
@@ -127,7 +121,6 @@ depends-member:
 - !private ["5MySQL10ConnectionC", "mysql_query"]
 - !private ["5MySQL10ConnectionC", "mysql_real_connect"]
 - !private ["5MySQL10ConnectionC", "mysql_set_character_set"]
-- !private ["5MySQL10ConnectionC", "mysql_stmt_attr_set"]
 - !private ["5MySQL10ConnectionC", "mysql_stmt_bind_param"]
 - !private ["5MySQL10ConnectionC", "mysql_stmt_bind_result"]
 - !private ["5MySQL10ConnectionC", "mysql_stmt_close"]
@@ -136,7 +129,6 @@ depends-member:
 - !private ["5MySQL10ConnectionC", "mysql_stmt_init"]
 - !private ["5MySQL10ConnectionC", "mysql_stmt_prepare"]
 - !private ["5MySQL10ConnectionC", "mysql_stmt_result_metadata"]
-- !private ["5MySQL10ConnectionC", "mysql_stmt_store_result"]
 - !private ["5MySQL10ConnectionC", "mysql_thread_end"]
 - !private ["5MySQL10ConnectionC", "mysql_thread_init"]
 - ["5MySQL10ConnectionC", "ping"]
@@ -527,22 +519,22 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
 interface-hash: "f2835e188e0076ce0c1caf8b16600989"

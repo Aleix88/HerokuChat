@@ -1,11 +1,11 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
-options: "162babca0175b9a992ea8cf6479ae804"
-build_time: [1514993034, 695027000]
+options: "876c9294fefe8ff86a2f2e69d209a3ff"
+build_time: [1515411049, 203857000]
 inputs:
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsError.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [1514918960, 0]
-  "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [1514918960, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/CacheSessions.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/MemorySessions.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Request+Session.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/Session.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsError.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsMiddleware.swift": [1515410937, 0]
+  "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/vapor.git-5492988889259800272/Sources/Sessions/SessionsProtocol.swift": [1515410937, 0]

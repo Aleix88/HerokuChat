@@ -44,7 +44,7 @@ depends-top-level:
 - !private "MemoryLayout"
 - "Node"
 - "String"
-- !private "StringLiteralType"
+- "StringLiteralType"
 - "TernaryPrecedence"
 - "TimeZone"
 - "UInt"
@@ -63,7 +63,7 @@ depends-member:
 - !private ["Sa", "init"]
 - !private ["s23BidirectionalCollectionP", "count"]
 - !private ["s23BidirectionalCollectionP", "enumerated"]
-- !private ["s23BidirectionalCollectionP", "init"]
+- ["s23BidirectionalCollectionP", "init"]
 - !private ["s23BidirectionalCollectionP", "utf8"]
 - !private ["s19BinaryFloatingPointP", "init"]
 - !private ["s13BinaryIntegerP", "init"]
@@ -102,13 +102,13 @@ depends-member:
 - !private ["5MySQL4BindC", "my_bool"]
 - ["5MySQL4BindC", "variant"]
 - !private ["Sb", "_getBuiltinLogicValue"]
-- !private ["4Bits16BytesConvertibleP", "init"]
+- ["4Bits16BytesConvertibleP", "init"]
 - !private ["4Bits16BytesConvertibleP", "makeBytes"]
 - !private ["4Bits16BytesConvertibleP", "utf8"]
-- !private ["4Bits18BytesInitializableP", "init"]
+- ["4Bits18BytesInitializableP", "init"]
 - !private ["4Bits18BytesInitializableP", "makeBytes"]
 - !private ["4Bits18BytesInitializableP", "utf8"]
-- !private ["4Bits18BytesRepresentableP", "init"]
+- ["4Bits18BytesRepresentableP", "init"]
 - !private ["4Bits18BytesRepresentableP", "makeBytes"]
 - !private ["4Bits18BytesRepresentableP", "utf8"]
 - !private ["s7CVarArgP", "allocate"]
@@ -116,19 +116,18 @@ depends-member:
 - !private ["s7CVarArgP", "deallocate"]
 - !private ["s7CVarArgP", "deinitialize"]
 - !private ["s7CVarArgP", "enumerated"]
-- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
 - !private ["s7CVarArgP", "initialize"]
 - !private ["s7CVarArgP", "subscript"]
 - !private ["s7CVarArgP", "utf8"]
 - ["10Foundation8CalendarV", "Calendar"]
-- ["10Foundation8CalendarV", "TimeZone"]
 - !private ["10Foundation8CalendarV", "dateComponents"]
 - ["10Foundation8CalendarV", "gregorian"]
 - ["10Foundation8CalendarV", "init"]
 - ["10Foundation8CalendarV", "timeZone"]
 - !private ["s10CollectionP", "count"]
 - !private ["s10CollectionP", "enumerated"]
-- !private ["s10CollectionP", "init"]
+- ["s10CollectionP", "init"]
 - !private ["s10CollectionP", "utf8"]
 - !private ["s10ComparableP", "Calendar"]
 - !private ["s10ComparableP", "MYSQL_TIME"]
@@ -136,7 +135,7 @@ depends-member:
 - !private ["s10ComparableP", "allocate"]
 - !private ["s10ComparableP", "deallocate"]
 - !private ["s10ComparableP", "deinitialize"]
-- !private ["s10ComparableP", "init"]
+- ["s10ComparableP", "init"]
 - !private ["s10ComparableP", "initialize"]
 - !private ["s10ComparableP", "makeComponents"]
 - !private ["s10ComparableP", "makeTime"]
@@ -181,7 +180,7 @@ depends-member:
 - !private ["s29CustomPlaygroundQuickLookableP", "allocate"]
 - !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
 - !private ["s29CustomPlaygroundQuickLookableP", "deinitialize"]
-- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
 - !private ["s29CustomPlaygroundQuickLookableP", "initialize"]
 - !private ["s29CustomPlaygroundQuickLookableP", "makeComponents"]
 - !private ["s29CustomPlaygroundQuickLookableP", "makeTime"]
@@ -366,7 +365,7 @@ depends-member:
 - !private ["s30ExpressibleByDictionaryLiteralP", "wrapped"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Bind"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "JSON"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeBytes"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "print"]
 - !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8"]
@@ -398,14 +397,14 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "wrapped"]
 - !private ["s26ExpressibleByStringLiteralP", "Bind"]
 - !private ["s26ExpressibleByStringLiteralP", "JSON"]
-- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
 - !private ["s26ExpressibleByStringLiteralP", "makeBytes"]
 - !private ["s26ExpressibleByStringLiteralP", "print"]
 - !private ["s26ExpressibleByStringLiteralP", "utf8"]
 - !private ["s26ExpressibleByStringLiteralP", "wrapped"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "Bind"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "JSON"]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "makeBytes"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "print"]
 - !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8"]
@@ -452,31 +451,31 @@ depends-member:
 - !private ["4JSON17JSONRepresentableP", "init"]
 - !private ["4JSON17JSONRepresentableP", "makeBytes"]
 - !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
-- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
 - !private ["s25LosslessStringConvertibleP", "utf8"]
 - !private ["s12MemoryLayoutO", "alignment"]
 - !private ["s12MemoryLayoutO", "size"]
-- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
 - !private ["s10MirrorPathP", "utf8"]
 - !private ["s17MutableCollectionP", "count"]
 - !private ["s17MutableCollectionP", "enumerated"]
 - !private ["s17MutableCollectionP", "init"]
-- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "init"]
 - !private ["So8NSCodingP", "utf8"]
-- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "init"]
 - !private ["So9NSCopyingP", "utf8"]
-- !private ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
 - !private ["So21NSItemProviderReadingP", "utf8"]
-- !private ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
 - !private ["So21NSItemProviderWritingP", "utf8"]
-- !private ["So16NSMutableCopyingP", "init"]
+- ["So16NSMutableCopyingP", "init"]
 - !private ["So16NSMutableCopyingP", "utf8"]
 - !private ["So8NSObjectC", "utf8"]
-- !private ["So16NSObjectProtocolP", "init"]
+- ["So16NSObjectProtocolP", "init"]
 - !private ["So16NSObjectProtocolP", "utf8"]
-- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "init"]
 - !private ["So14NSSecureCodingP", "utf8"]
-- !private ["So8NSStringC", "init"]
+- ["So8NSStringC", "init"]
 - !private ["So8NSStringC", "utf8"]
 - ["4NodeAAV", "Bind"]
 - !private ["4NodeAAV", "Bytes"]
@@ -498,7 +497,7 @@ depends-member:
 - ["4Node0A13InitializableP", "date"]
 - !private ["4Node0A13InitializableP", "enumerated"]
 - !private ["4Node0A13InitializableP", "flatMap"]
-- !private ["4Node0A13InitializableP", "init"]
+- ["4Node0A13InitializableP", "init"]
 - !private ["4Node0A13InitializableP", "makeBytes"]
 - !private ["4Node0A13InitializableP", "makeComponents"]
 - !private ["4Node0A13InitializableP", "makeTime"]
@@ -522,7 +521,7 @@ depends-member:
 - ["4Node0A13RepresentableP", "date"]
 - !private ["4Node0A13RepresentableP", "enumerated"]
 - !private ["4Node0A13RepresentableP", "flatMap"]
-- !private ["4Node0A13RepresentableP", "init"]
+- ["4Node0A13RepresentableP", "init"]
 - !private ["4Node0A13RepresentableP", "makeBytes"]
 - !private ["4Node0A13RepresentableP", "makeComponents"]
 - !private ["4Node0A13RepresentableP", "makeTime"]
@@ -552,14 +551,14 @@ depends-member:
 - !private ["13PathIndexableAAP", "print"]
 - ["13PathIndexableAAP", "string"]
 - !private ["13PathIndexableAAP", "wrapped"]
-- !private ["13PathIndexable0A7IndexerP", "init"]
+- ["13PathIndexable0A7IndexerP", "init"]
 - !private ["13PathIndexable0A7IndexerP", "utf8"]
 - !private ["s22RandomAccessCollectionP", "count"]
 - !private ["s22RandomAccessCollectionP", "enumerated"]
 - !private ["s22RandomAccessCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "count"]
 - !private ["s26RangeReplaceableCollectionP", "enumerated"]
-- !private ["s26RangeReplaceableCollectionP", "init"]
+- ["s26RangeReplaceableCollectionP", "init"]
 - !private ["s26RangeReplaceableCollectionP", "utf8"]
 - ["10Foundation20ReferenceConvertibleP", "Calendar"]
 - !private ["10Foundation20ReferenceConvertibleP", "MYSQL_TIME"]
@@ -580,7 +579,7 @@ depends-member:
 - !private ["10Foundation20ReferenceConvertibleP", "year"]
 - !private ["s8SequenceP", "count"]
 - !private ["s8SequenceP", "enumerated"]
-- !private ["s8SequenceP", "init"]
+- ["s8SequenceP", "init"]
 - !private ["s8SequenceP", "utf8"]
 - !private ["s13SignedIntegerP", "init"]
 - !private ["s13SignedNumericP", "init"]
@@ -590,9 +589,9 @@ depends-member:
 - !private ["s10StrideableP", "init"]
 - !private ["s10StrideableP", "initialize"]
 - !private ["s10StrideableP", "subscript"]
-- !private ["SS", "init"]
+- ["SS", "init"]
 - !private ["SS", "utf8"]
-- !private ["s14StringProtocolP", "init"]
+- ["s14StringProtocolP", "init"]
 - !private ["s14StringProtocolP", "utf8"]
 - ["4Node14StructuredDataO", "array"]
 - ["4Node14StructuredDataO", "bool"]
@@ -608,9 +607,9 @@ depends-member:
 - !private ["4Node21StructuredDataWrapperP", "makeBytes"]
 - !private ["4Node21StructuredDataWrapperP", "print"]
 - !private ["4Node21StructuredDataWrapperP", "wrapped"]
-- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
 - !private ["s16TextOutputStreamP", "utf8"]
-- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
 - !private ["s20TextOutputStreamableP", "utf8"]
 - ["10Foundation8TimeZoneV", "TimeZone"]
 - ["10Foundation8TimeZoneV", "init"]
@@ -633,7 +632,7 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "init"]
 - !private ["s23_BidirectionalIndexableP", "count"]
 - !private ["s23_BidirectionalIndexableP", "enumerated"]
-- !private ["s23_BidirectionalIndexableP", "init"]
+- ["s23_BidirectionalIndexableP", "init"]
 - !private ["s23_BidirectionalIndexableP", "utf8"]
 - !private ["s18_BitwiseOperationsP", "init"]
 - !private ["s15_CVarArgAlignedP", "init"]
@@ -642,32 +641,31 @@ depends-member:
 - !private ["s24_DestructorSafeContainerP", "enumerated"]
 - !private ["s24_DestructorSafeContainerP", "init"]
 - !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
 - !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8"]
 - !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
-- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8"]
-- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "utf8"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8"]
-- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "utf8"]
-- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "utf8"]
 - !private ["s10_IndexableP", "count"]
 - !private ["s10_IndexableP", "enumerated"]
-- !private ["s10_IndexableP", "init"]
+- ["s10_IndexableP", "init"]
 - !private ["s10_IndexableP", "utf8"]
 - !private ["s14_IndexableBaseP", "count"]
 - !private ["s14_IndexableBaseP", "enumerated"]
-- !private ["s14_IndexableBaseP", "init"]
+- ["s14_IndexableBaseP", "init"]
 - !private ["s14_IndexableBaseP", "utf8"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "utf8"]
 - ["10Foundation14_MutableBoxingP", "Calendar"]
-- ["10Foundation14_MutableBoxingP", "TimeZone"]
 - !private ["10Foundation14_MutableBoxingP", "dateComponents"]
 - !private ["10Foundation14_MutableBoxingP", "day"]
 - !private ["10Foundation14_MutableBoxingP", "gregorian"]
@@ -714,7 +712,7 @@ depends-member:
 - !private ["s22_RandomAccessIndexableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "count"]
 - !private ["s26_RangeReplaceableIndexableP", "enumerated"]
-- !private ["s26_RangeReplaceableIndexableP", "init"]
+- ["s26_RangeReplaceableIndexableP", "init"]
 - !private ["s26_RangeReplaceableIndexableP", "utf8"]
 - !private ["s11_StrideableP", "allocate"]
 - !private ["s11_StrideableP", "deallocate"]
@@ -723,7 +721,7 @@ depends-member:
 - !private ["s11_StrideableP", "initialize"]
 - !private ["s11_StrideableP", "subscript"]
 - !private ["s14_StringElementP", "init"]
-- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
 - !private ["s16_SwiftStringViewP", "utf8"]
 - !private ["SC13st_mysql_bindV", "buffer"]
 - !private ["SC13st_mysql_bindV", "buffer_length"]
@@ -733,7 +731,7 @@ depends-member:
 - !private ["SC13st_mysql_bindV", "is_null"]
 - !private ["SC13st_mysql_bindV", "is_unsigned"]
 - !private ["SC13st_mysql_bindV", "length"]
-- !private ["SC14st_mysql_fieldV", "max_length"]
+- !private ["SC14st_mysql_fieldV", "length"]
 - !private ["SC14st_mysql_fieldV", "type"]
 - !private ["SC13st_mysql_timeV", "day"]
 - !private ["SC13st_mysql_timeV", "hour"]
@@ -744,21 +742,21 @@ depends-member:
 - !private ["SC13st_mysql_timeV", "year"]
 depends-nominal:
 - !private "Sa"
-- !private "s23BidirectionalCollectionP"
+- "s23BidirectionalCollectionP"
 - !private "s19BinaryFloatingPointP"
 - !private "s13BinaryIntegerP"
 - "5MySQL4BindC"
 - !private "Sb"
-- !private "4Bits16BytesConvertibleP"
-- !private "4Bits18BytesInitializableP"
-- !private "4Bits18BytesRepresentableP"
-- !private "s7CVarArgP"
+- "4Bits16BytesConvertibleP"
+- "4Bits18BytesInitializableP"
+- "4Bits18BytesRepresentableP"
+- "s7CVarArgP"
 - "10Foundation8CalendarV"
-- !private "s10CollectionP"
-- !private "s10ComparableP"
+- "s10CollectionP"
+- "s10ComparableP"
 - !private "10Foundation8CalendarV9ComponentO"
 - "s28CustomDebugStringConvertibleP"
-- !private "s29CustomPlaygroundQuickLookableP"
+- "s29CustomPlaygroundQuickLookableP"
 - "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - "10Foundation4DateV"
@@ -770,12 +768,12 @@ depends-nominal:
 - !private "s25ExpressibleByArrayLiteralP"
 - !private "s27ExpressibleByBooleanLiteralP"
 - !private "s30ExpressibleByDictionaryLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - "s25ExpressibleByFloatLiteralP"
 - "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
 - "5MySQL5FieldC"
 - !private "s17FixedWidthIntegerP"
 - !private "s13FloatingPointP"
@@ -786,19 +784,19 @@ depends-nominal:
 - !private "s5Int64V"
 - !private "4JSONAAV"
 - !private "4JSON17JSONRepresentableP"
-- !private "s25LosslessStringConvertibleP"
+- "s25LosslessStringConvertibleP"
 - !private "s12MemoryLayoutO"
-- !private "s10MirrorPathP"
+- "s10MirrorPathP"
 - !private "s17MutableCollectionP"
-- !private "So8NSCodingP"
-- !private "So9NSCopyingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
-- !private "So16NSMutableCopyingP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
 - !private "So8NSObjectC"
-- !private "So16NSObjectProtocolP"
-- !private "So14NSSecureCodingP"
-- !private "So8NSStringC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
 - "4NodeAAV"
 - !private "4Node0A28ConvertibleFloatingPointTypeP"
 - "4Node0A13InitializableP"
@@ -807,20 +805,20 @@ depends-nominal:
 - !private "s7NumericP"
 - !private "Sq"
 - "13PathIndexableAAP"
-- !private "13PathIndexable0A7IndexerP"
+- "13PathIndexable0A7IndexerP"
 - !private "s22RandomAccessCollectionP"
-- !private "s26RangeReplaceableCollectionP"
+- "s26RangeReplaceableCollectionP"
 - "10Foundation20ReferenceConvertibleP"
-- !private "s8SequenceP"
+- "s8SequenceP"
 - !private "s13SignedIntegerP"
 - !private "s13SignedNumericP"
 - !private "s10StrideableP"
-- !private "SS"
-- !private "s14StringProtocolP"
+- "SS"
+- "s14StringProtocolP"
 - "4Node14StructuredDataO"
 - !private "4Node21StructuredDataWrapperP"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
 - "10Foundation8TimeZoneV"
 - !private "Su"
 - !private "s6UInt32V"
@@ -830,32 +828,32 @@ depends-nominal:
 - !private "Sv"
 - !private "s15UnsignedIntegerP"
 - !private "s14_ArrayProtocolP"
-- !private "s23_BidirectionalIndexableP"
+- "s23_BidirectionalIndexableP"
 - !private "s18_BitwiseOperationsP"
 - !private "s15_CVarArgAlignedP"
 - !private "s22_CVarArgPassedAsDoubleP"
 - !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinBooleanLiteralP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
 - !private "s33_ExpressibleByBuiltinFloatLiteralP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
-- !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s33_ExpressibleByStringInterpolationP"
-- !private "s35_HasCustomAnyHashableRepresentationP"
-- !private "s10_IndexableP"
-- !private "s14_IndexableBaseP"
-- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
 - "10Foundation14_MutableBoxingP"
 - !private "s17_MutableIndexableP"
 - "s21_ObjectiveCBridgeableP"
 - !private "s8_PointerP"
 - !private "s22_RandomAccessIndexableP"
-- !private "s26_RangeReplaceableIndexableP"
+- "s26_RangeReplaceableIndexableP"
 - !private "s11_StrideableP"
 - !private "s14_StringElementP"
-- !private "s16_SwiftStringViewP"
+- "s16_SwiftStringViewP"
 - !private "SC13st_mysql_bindV"
 - !private "SC14st_mysql_fieldV"
 - !private "SC13st_mysql_timeV"
@@ -863,22 +861,22 @@ depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/JSON.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/libc.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Node.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/PathIndexable.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Core.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Debugging.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/Bits.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
-- "/Users/AleixDiaz/Desktop/VaporProject/LaSalleChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
-interface-hash: "3d91f4e985cccee4a5d70faaa9f3a26f"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/checkouts/cmysql.git-3946220544950307782/module.modulemap"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/CHTTP.build/module.modulemap"
+- "/Users/AleixDiaz/Documents/VaporProject/HerokuChat/.build/x86_64-apple-macosx10.10/debug/CSQLite.build/module.modulemap"
+interface-hash: "b7a49878ca5c40938ccfedfdc5c446b9"
